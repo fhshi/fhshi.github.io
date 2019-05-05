@@ -1,1 +1,358 @@
-"Hello World" 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<title>Fuhao Shi's Homepage</title>
+<style type="text/css">
+
+a
+{
+	target-name:new;
+	target-new:tab;
+}
+
+body {
+	background-color: #666666;
+	//background-image: url(BG.jpg);
+	background-repeat: no-repeat;
+}
+
+.sidebar{
+	float: left;
+	margin: 10px 10px 20px 0px;
+	width: auto;
+	display: inline;
+	text-align: right;
+}
+
+.sidebar #contact{
+	position:fixed;
+	bottom: 50px;
+	right: 85%;
+	text-align: right;
+	color: #FFFFFF;
+	margin: 5px;
+	padding-left: 10px;
+	width: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar #contact h1{
+	
+	font-weight: bold;
+	font-variant: small-caps;
+	text-shadow: 1px 1px #666;
+}
+
+.sidebar #contact p{
+	font-size: 13px;
+}
+
+
+#main
+{
+align: center;
+width: 1200px;
+margin: auto;
+padding: 0px;
+/*background-color:#CCCCCC;*/
+}
+
+#main .division
+{
+	 padding: 10px 20px;
+	 margin: 10px 10px 20px;
+	 background-color:#ffffff;
+ 	vertical-align: top;
+	text-align: center;
+	box-shadow: 8px 8px 5px #333;
+	border: #666 thin solid;
+}
+#main .division .center{
+	max-width: 1400px;
+	margin: auto;
+}
+
+#main #head img#photo {
+	margin: 40px 30px 10px auto;
+	display: inline-block;
+}
+
+#main #head #title{
+	max-width: 60%;
+	display: inline-block;
+	margin: 20px 10px;
+	padding: 10px 0px;
+	vertical-align: top;
+	text-align:left;
+}
+
+#main #head #title h1
+{
+	font: Georgia, "Times New Roman", Times, serif;
+	font-size: 28px;
+	font-weight: bold;
+	width: auto;
+	height: 40px;
+	vertical-align:top;
+	margin-bottom: 10px;
+	
+}
+
+h1 #name{ width:100px; margin: 10px 0 10px 10px; }
+
+
+#main #head #title .notes
+{
+	font: "Times New Roman", Times, serif;
+	font-style: oblique; 
+	font-size: 14px;
+	color:#999999;
+	display: inline-table;
+
+}
+
+#main #head #title .sub
+{
+	max-width: 800px;
+	margin: 10px 10px 30px 0px; 
+	padding: auto;
+}
+
+
+#main #head #title h2
+{
+	font-size: 20px;
+	font-weight: 500;
+	font-style:italic;
+	color:#666;
+	line-height: 25px;
+	font-family: "Times New Roman", Times, serif
+	margin-bottom: 40px;
+	padding-bottom: 15px;
+	
+}
+
+#main #head #title h2 .email
+{
+	color: #333;
+	font-weight: 500;
+}
+
+#main #head #title p
+{
+	margin: 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3A3A3A;
+}
+
+#main #head #title p a
+{
+	color: #507201;
+	font-style: italic;
+	text-decoration: none;		
+}
+
+#main #head #title p a:hover {
+	color: #99CC00;
+}
+
+#main #head #title p .emphasis{
+	color: #333;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#main #head #title p.enotes a{
+	color: #0099FF;
+	font-family:"Times New Roman", Times, serif;
+	font-variant:small-caps;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	margin: 10px 3px;
+}
+
+#main #head #title p.enotes a:hover{
+	color: #00FFFF;
+}
+
+/*Contents*/
+
+#main #contents {
+	 padding: 20px 100px 50px 80px;
+	 color: #333;
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size: 14px;
+	 line-height: 24px;
+	 text-align:center;
+	 /*background-image:url(csaillogo.png);
+	 background-repeat:no-repeat;
+	 background-position:center;*/
+}
+
+#main #contents h1{
+	color:#ccc;
+	font-variant:small-caps;
+	text-align:left;
+}
+
+#main #contents h2 {
+	color: #99CC00;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	font-style: italic;
+	padding: 10px 40px;
+	margin-top: 30px;
+	display: block;
+	border-bottom: dashed thin #99CC00;
+	text-align: center;
+}
+
+#main #contents h2.manu { 
+	color: #ccc;
+	border-bottom: dashed thin  #ccc;}
+
+#main #contents .center{
+	max-width: 800px;
+	min-width: 700px;
+	margin: auto;
+}
+
+#main #contents ul.paper{
+	list-style: square outside;
+	list-style-position:outside;
+	margin-bottom: 50px;
+	text-align: left;
+	padding: auto;
+}
+
+#main #contents ul.paper li{
+	margin-bottom: 50px;
+	padding-left: 20px;
+}
+
+#main #contents ul.paper a{
+	text-decoration: none;
+	color: inherit;
+	target-name:new;
+	target-new:tab;
+}
+
+#main #contents ul.paper a:hover{
+	color: #0099FF;
+}
+
+#main #contents ul.paper .papername{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: #000; /*#336600*/
+	margin: 10px 0px;
+}
+
+#main #contents ul.paper .author{
+	font-style: italic;
+	font-size: 15px;
+}
+
+#main #contents ul.paper .emphasis{
+	font-weight: bold;
+	color: #000;
+	font-size: 15px;
+}
+
+#main #contents ul li a{
+	target-name:new;
+	target-new:tab;
+}
+
+
+#main #contents ul.paper .enotes{
+	font-weight: 600;
+	color: #669900 ;
+}
+
+
+#main #contents ul.paper #press{
+	font-size: 17px;
+	line-height: 26px;
+	color: #0099FF ; /*#4E9B00*/
+}
+
+#main #contents ul.paper #press a{
+    font-style: italic;
+	text-decoration:underline;
+	target-name:new;
+	target-new:tab;
+ }
+#main #contents ul.paper #press a:hover{
+	color:#FF6600;
+}
+
+</style>
+
+</head>
+
+
+
+
+<body data-gr-c-s-loaded="true">
+
+<div class="body" id="main">
+	<div class="division" id="head">
+		 <div class="center"><img src="./images/fuhaoshi.jpg" alt="Fuhao Shi" name="photo" width="230" hspace="20" vspace="20" id="photo">
+				<div id="title">
+					<h1 id="name">Fuhao Shi</h1>
+					<div id="subtitle" class="sub">
+					  <h2><br>
+				    <span class="email">Email: fuhaoshi@cs.tamu.edu</span></h2>
+					</div>
+					
+					<div id="statement" class="sub">
+					<p>I am a Ph.D. candidate at <a href="http://www.tamu.edu/">Texas A&amp;M University</a>, adversied by <a href="http://faculty.cs.tamu.edu/jchai/">Dr. Jinxiang Chai.</a></p>
+					<p> I received the M.S. degree at the <a href="http://www.cis.pku.edu.cn/vision/Visual&amp;Robot/index.html">3D Visual Computing and Robotics Lab</a><a href="http://www.csail.mit.edu/" target="_blank"></a> at <a href="http://www.mit.edu/" target="_blank"> Peking University</a> under the supervision of <a href="http://www.cis.pku.edu.cn/vision/3DVCR/img/PeiYR_s.jpg"> Dr. Yuru Pei</a> and <a href="http://www.cis.pku.edu.cn/vision/Visual&amp;Robot/people/zha/index.html">Dr. Hongbin Zha</a>.					I did my undergraduate study in the <a href="http://eecs.pku.edu.cn/" target="_blank">EECS</a> Department at <a href="http://www.pku.edu.cn/" target="_blank">Peking University</a>.</p>
+					<p> I am interested in  computer graphics, computer vision and their intersections. Specifically, I focus on facail detection/tracking, 3D performance capture, modeling and animation.				  </p>
+				  </div>
+				</div>
+          </div>
+	  
+  </div>
+  <div class="division" id="contents">
+	<h1>Publications</h1>
+	  <div class="center" id="publication">
+	  <ul class="paper" id="Algorithmic">
+	  	
+        <li><span class="papername"><a href="http://students.cse.tamu.edu/fuhaoshi/FacefromVideo/index.htm">Automatic Acquisition of High-fidelity Facial Performances Using Monocular Videos</a></span><span class="author"><br>
+          Fuhao Shi, Hsiang-Tao Wu, Xin Tong and Jinxiang Chai</span><br>
+           <em><a href="http://tog.acm.org/">ACM Transactions on Graphics</a></em> (<em><a href="http://sa2014.siggraph.org/">SIGGRAPH ASIA 2014</a></em>)</li>
+           <li><span class="papername"><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6751561">Accurate Robust 3D Facial Capture Using Single RGBD Images</a></span><span class="author"><br>
+             Yen-Lin Chen, Hsiang-Tao Wu, Fuhao Shi, Xin Tong and Jinxiang Chai</span> <br>
+             <em><a href="http://www.iccv2013.org/">IEEE International Conference on Computer Vision</a>&nbsp;</em><em><span lang="fr" xml:lang="fr">(</span><span lang="fr" xml:lang="fr"><a href="http://www.iccv2013.org/">ICCV&nbsp;2013</a></span></em><em><span lang="fr" xml:lang="fr">)</span></em></li>
+             
+                 <li><span class="papername"><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6095564&amp;tag=1">Unsupervised Image Matching Based on Manifold Alignment</a></span><span class="author"><br>
+             Yuru Pei, Fengchun Huang, Fuhao Shi and Hongbin Zha</span> <br>
+             <em><a href="http://www.computer.org/portal/web/tpami">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>&nbsp;</em><em><span lang="fr" xml:lang="fr">(</span><span lang="fr" xml:lang="fr"><a href="http://www.computer.org/portal/web/tpami">TPAMI 2012</a></span></em><em><span lang="fr" xml:lang="fr">)</span></em></li>
+             
+             <li><span class="papername"><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6070973">Personalized Tooth Shape Estimation From Radiograph and Cast</a></span><span class="author"><br>
+             Yuru Pei, Fuhao Shi, Hua Chen, Jia Wei, Hongbin Zha, Ruoping Jiang and Tianmin Xu</span> <br>
+             <em><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10">IEEE Transactions on Biomedical Engineering</a>&nbsp;</em><em><span lang="fr" xml:lang="fr">(</span><span lang="fr" xml:lang="fr"><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10">TBE 2012</a></span></em><em><span lang="fr" xml:lang="fr">)</span></em></li>
+	
+       <li><span class="papername"><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5413996">Interactive Modeling of 3D Facial Expressions with Hierarchical  Gaussian Process Latent Variable Models</a></span><span class="author"><br>
+             Fuhao Shi, Yuru Pei and Hongbin Zha</span> <br>
+             <em><a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5403221">International Conference on Image Processing</a>&nbsp;</em><em><span lang="fr" xml:lang="fr">(</span><span lang="fr" xml:lang="fr"><a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5403221">ICIP 2009</a></span></em><em><span lang="fr" xml:lang="fr">)</span></em></li>
+	 
+	  </ul>
+	  
+	 
+	
+      
+	 
+    </div>
+	</div>
+</div>
+
+
+
+
+</body></html>
